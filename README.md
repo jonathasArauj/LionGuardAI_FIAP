@@ -558,26 +558,6 @@ resumo:
 
 ---
 
-## Checklist de entrega
-
-- [ ] Confirmar nomes e RMs dos integrantes, preencher a turma no topo deste arquivo
-      e na primeira página do PDF;
-- [ ] estrutura do repositório conforme o template da FIAP;
-- [ ] `README.md` em cada pasta exigida pelo template;
-- [ ] repositório **privado**, compartilhado apenas com `fiap-tutoria` e os
-      integrantes do grupo (convite válido por 7 dias);
-- [ ] PDF único com Introdução, Desenvolvimento, Resultados e Conclusões;
-- [ ] códigos no PDF como **texto legível**, não captura de tela;
-- [ ] vídeo de até 5 minutos no YouTube como **"Não listado"**;
-- [ ] frase **QUERO CONCORRER** no vídeo e no README, se for disputar o pódio;
-- [ ] links do vídeo e do repositório no final do PDF;
-- [ ] `python scripts/rodar_testes.py` sem falhas;
-- [ ] `python scripts/diagnostico.py` revisado, com os itens PENDENTE descritos
-      no PDF;
-- [ ] nada de `.env` ou credencial versionado;
-- [ ] repositório **não alterado** após o prazo da FIAP.
-
----
 
 **LionGuard AI** — protótipo acadêmico desenvolvido para a Global Solution
 2026.2 da FIAP. Não é um sistema oficial do ICMBio nem de qualquer órgão
