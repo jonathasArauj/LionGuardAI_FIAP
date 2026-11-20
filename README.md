@@ -5,9 +5,6 @@
 Global Solution 2026.2 — FIAP · Desafio **CitizenTech: Tecnologia centrada no cidadão**
 
 ---
-
-> ### ⚠️ PREENCHER ANTES DE ENTREGAR
->
 > - **Integrantes:** Jonathas Martins de Araujo (RM 574051), Carlos Magno Barcelos (RM 569944), Lauren Cota (RM 569789) — **confirmar grafias e números antes da entrega**
 > - **Turma:** `B`
 > - **Link do vídeo demonstrativo (YouTube, "Não listado"):** ``
