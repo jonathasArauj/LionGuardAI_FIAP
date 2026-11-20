@@ -1,0 +1,119 @@
+{
+  "videos": [],
+  "links_oficiais": [
+    {
+      "titulo": "ICMBio — manejo de espécies exóticas invasoras",
+      "url": "https://www.gov.br/icmbio/",
+      "descricao": "Portal do órgão federal responsável pela conservação da biodiversidade e pelos planos de manejo da espécie.",
+      "organizacao": "ICMBio"
+    },
+    {
+      "titulo": "Plano Emergencial de Monitoramento e Erradicação do Peixe-leão",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/manejo-de-especies-exoticas-invasoras/guias-e-materiais-orientadores/materias-diversos/plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "descricao": "Documento que embasa o projeto, inclusive o reconhecimento de que métodos padronizados têm baixa probabilidade de detectar a espécie no início da invasão.",
+      "organizacao": "ICMBio"
+    },
+    {
+      "titulo": "Guia Estratégico do Peixe-leão",
+      "url": "https://www.icmbio.gov.br/cbc/images/stories/Guia_Estrat%C3%A9gico_Peixe-Le%C3%A3o_2.pdf",
+      "descricao": "Orientações sobre identificação, riscos e resposta.",
+      "organizacao": "ICMBio"
+    },
+    {
+      "titulo": "Primeiro registro no Espírito Santo",
+      "url": "https://iema.es.gov.br/peixe-leao-e-registrado-pela-primeira-vez-no-espirito-santo-na-ilha-escavada-em-guarapari",
+      "descricao": "Registro de 14/11/2026 na Ilha Escalvada, em Guarapari, feito por uma equipe de mergulho recreativo.",
+      "organizacao": "Iema (ES)"
+    },
+    {
+      "titulo": "ODS 14 — Vida na Água",
+      "url": "https://brasil.un.org/pt-br/sdgs/14",
+      "descricao": "Objetivo de Desenvolvimento Sustentável a que o projeto se liga.",
+      "organizacao": "ONU Brasil"
+    },
+    {
+      "titulo": "iNaturalist — observações do gênero Pterois",
+      "url": "https://www.inaturalist.org/taxa/110932",
+      "descricao": "Base colaborativa de observações; origem das fotografias licenciadas exibidas nesta plataforma.",
+      "organizacao": "iNaturalist"
+    },
+    {
+      "titulo": "GBIF — ocorrências registradas",
+      "url": "https://www.gbif.org/species/search?q=Pterois%20volitans",
+      "descricao": "Infraestrutura global de dados de biodiversidade.",
+      "organizacao": "GBIF"
+    }
+  ],
+  "identificacao": [
+    {
+      "caracteristica": "Nadadeiras em leque, muito longas",
+      "descricao": "As peitorais se abrem como asas e os espinhos dorsais ficam soltos nas pontas. É a característica mais fácil de notar, mesmo de longe e com água turva.",
+      "icone": "lupa"
+    },
+    {
+      "caracteristica": "Faixas verticais alternadas",
+      "descricao": "Listras avermelhadas ou marrons alternadas com faixas claras, percorrendo o corpo inteiro, inclusive a cabeça.",
+      "icone": "camera"
+    },
+    {
+      "caracteristica": "18 espinhos venenosos",
+      "descricao": "Treze dorsais, três anais e dois pélvicos. Não são usados para atacar, mas a picada acidental é intensamente dolorosa.",
+      "icone": "aviso"
+    },
+    {
+      "caracteristica": "Não foge quando se aproxima",
+      "descricao": "Costuma permanecer parado junto a tocas, pedras e estruturas, o que facilita a fotografia — e aumenta o risco de contato.",
+      "icone": "relogio"
+    },
+    {
+      "caracteristica": "Tentáculos acima dos olhos",
+      "descricao": "Pequenos apêndices carnudos sobre os olhos, visíveis em fotos de perto.",
+      "icone": "lupa"
+    },
+    {
+      "caracteristica": "Entre 15 e 40 cm",
+      "descricao": "O exemplar registrado no Espírito Santo tinha cerca de 15 cm, a 9,4 metros de profundidade.",
+      "icone": "grafico"
+    }
+  ],
+  "nao_confundir": [
+    "Peixes-escorpião nativos (família Scorpaenidae) — também têm espinhos venenosos, mas são camuflados, de cor parda e sem as nadadeiras longas em leque.",
+    "Peixes-anjo e peixes-borboleta — têm faixas, mas o corpo é achatado e alto, e as nadadeiras são curtas.",
+    "Na dúvida, registre assim mesmo: a validação é feita por avaliador humano, e um registro a mais custa uma conferência, enquanto um registro a menos custa uma ocorrência não detectada."
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Preciso criar conta para registrar?",
+      "resposta": "Não. O registro é público e anônimo. Nenhum dado pessoal é solicitado, e o campo de contato é opcional — quando preenchido, guardamos apenas um código derivado dele, nunca o contato em si."
+    },
+    {
+      "pergunta": "O que acontece depois que eu registro?",
+      "resposta": "O avistamento entra com status **pendente de validação**. Um avaliador analisa a foto e os dados do local e decide se confirma, rejeita ou marca como inconclusivo, sempre com justificativa registrada. Acompanhe pelo protocolo que você recebe."
+    },
+    {
+      "pergunta": "A inteligência artificial decide sozinha?",
+      "resposta": "Não. A IA faz uma triagem preliminar e nunca confirma uma ocorrência: mesmo com score alto, o registro entra como pendente. Se o modelo estiver indisponível, o sistema avisa e grava o registro assim mesmo, para revisão humana."
+    },
+    {
+      "pergunta": "E se a IA não identificar o peixe na minha foto?",
+      "resposta": "Você ainda pode registrar. “Não identificado” significa que o modelo não reconheceu a espécie naquela imagem — e não que a espécie não esteja lá. Fotos subaquáticas variam muito em iluminação, distância e turbidez."
+    },
+    {
+      "pergunta": "Minha localização exata fica pública?",
+      "resposta": "Não. No mapa público as posições aparecem arredondadas em cerca de 1 km, o que protege pontos de mergulho específicos. A coordenada precisa fica acessível apenas a perfis autorizados."
+    },
+    {
+      "pergunta": "O GPS não está funcionando. Posso registrar mesmo assim?",
+      "resposta": "Sim. Se a permissão for negada ou o navegador não liberar o GPS (ele exige conexão segura, por HTTPS), você marca o ponto no mapa ou informa apenas estado e município. O sistema diferencia essas origens e nunca trata uma região aproximada como leitura de GPS."
+    },
+    {
+      "pergunta": "Devo capturar ou matar o animal?",
+      "resposta": "**Não.** Mantenha distância, não toque e não tente capturar. Os espinhos são venenosos. Ações de manejo e remoção cabem aos órgãos competentes e a profissionais autorizados. Em caso de acidente, procure atendimento médico."
+    },
+    {
+      "pergunta": "Esta plataforma é oficial?",
+      "resposta": "Não. É um protótipo acadêmico da Global Solution 2026.2 da FIAP, sem vínculo, homologação ou parceria com ICMBio, Iema ou qualquer órgão ambiental. Registre aqui, mas comunique também o órgão ambiental do seu estado."
+    }
+  ],
+  "_comentario": "Conteúdo educativo da área pública. Para exibir vídeos na página inicial, acrescente objetos em 'videos' com titulo, url, descricao e fonte. O vídeo demonstrativo da entrega é o primeiro candidato."
+}

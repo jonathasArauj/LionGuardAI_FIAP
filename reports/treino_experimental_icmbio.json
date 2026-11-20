@@ -1,0 +1,239 @@
+{
+  "rotulo": "TREINO EXPERIMENTAL — SEM TESTE INDEPENDENTE",
+  "original_por_classe": {
+    "peixe_leao": 8,
+    "nao_peixe_leao": 6
+  },
+  "numero_fotos_independentes": 14,
+  "aumentacoes_por_epoca_por_foto": 4,
+  "disponibilidade_metricas_teste": false,
+  "justificativa": "Fonte única, amostra insuficiente e cortes do mesmo material; métricas de validação/teste seriam enganosas.",
+  "metadados": [
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 42,
+      "recorte": [
+        100,
+        72,
+        412,
+        286
+      ],
+      "classe": "peixe_leao",
+      "descricao": "peixe em habitat recifal"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 36,
+      "recorte": [
+        30,
+        58,
+        404,
+        323
+      ],
+      "classe": "peixe_leao",
+      "descricao": "peixe com espinhos em mão com luva"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 20,
+      "recorte": [
+        87,
+        169,
+        275,
+        310
+      ],
+      "classe": "peixe_leao",
+      "descricao": "peixe manuseado por mergulhador"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 14,
+      "recorte": [
+        128,
+        182,
+        357,
+        345
+      ],
+      "classe": "peixe_leao",
+      "descricao": "peixe pequeno na rede"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 36,
+      "recorte": [
+        465,
+        4,
+        785,
+        344
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "luvas, sem peixe"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 16,
+      "recorte": [
+        0,
+        0,
+        236,
+        155
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "mergulhador e ambiente sem peixe no recorte"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 20,
+      "recorte": [
+        71,
+        0,
+        323,
+        157
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "rosto do mergulhador, sem peixe no recorte"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 24,
+      "recorte": [
+        420,
+        30,
+        819,
+        285
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "mergulhador com recipiente, sem peixe no recorte"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 32,
+      "recorte": [
+        0,
+        180,
+        340,
+        290
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "superfície do mar sem peixe visível no recorte"
+    },
+    {
+      "origem": "plano_emergencial_peixe-leao_resex_arraial_do_cabo_2015.pdf",
+      "xref": 14,
+      "recorte": [
+        90,
+        0,
+        306,
+        164
+      ],
+      "classe": "nao_peixe_leao",
+      "descricao": "mergulhador sem peixe no recorte"
+    },
+    {
+      "origem": "data/amostras_usuario/peixe_leao/peixe_leao_01.jpeg",
+      "sha256": "f9c4daecf8d0866d4aee1ba55fafdb6f18a150c6daea73fc6e97ae08f5d5e276",
+      "classe": "peixe_leao",
+      "observacao": "Imagem fornecida pelo usuário; licença e rotulagem a confirmar"
+    },
+    {
+      "origem": "data/amostras_usuario/peixe_leao/peixe_leao_02.jpeg",
+      "sha256": "af6f1953625620fbd290c258c573b5eecc96273a0c1ab9a58a858e620d40f706",
+      "classe": "peixe_leao",
+      "observacao": "Imagem fornecida pelo usuário; licença e rotulagem a confirmar"
+    },
+    {
+      "origem": "data/amostras_usuario/peixe_leao/peixe_leao_03.jpeg",
+      "sha256": "4c013c9db33c2a316120b4c8b313e2498a7cd4586172fed76fd3cf77accdc6b8",
+      "classe": "peixe_leao",
+      "observacao": "Imagem fornecida pelo usuário; licença e rotulagem a confirmar"
+    },
+    {
+      "origem": "data/amostras_usuario/peixe_leao/peixe_leao_04.jpeg",
+      "sha256": "dd9425471c8e59e0ea54ec9ac5e960a6a14379fdd0fbebebd621d3425305a9fe",
+      "classe": "peixe_leao",
+      "observacao": "Imagem fornecida pelo usuário; licença e rotulagem a confirmar"
+    }
+  ],
+  "historico": [
+    {
+      "epoca": 1,
+      "perda_treino": 0.66727
+    },
+    {
+      "epoca": 2,
+      "perda_treino": 0.79219
+    },
+    {
+      "epoca": 3,
+      "perda_treino": 0.63621
+    },
+    {
+      "epoca": 4,
+      "perda_treino": 0.5543
+    },
+    {
+      "epoca": 5,
+      "perda_treino": 0.53317
+    },
+    {
+      "epoca": 6,
+      "perda_treino": 0.51235
+    },
+    {
+      "epoca": 7,
+      "perda_treino": 0.42686
+    },
+    {
+      "epoca": 8,
+      "perda_treino": 0.41881
+    },
+    {
+      "epoca": 9,
+      "perda_treino": 0.42236
+    },
+    {
+      "epoca": 10,
+      "perda_treino": 0.37859
+    },
+    {
+      "epoca": 11,
+      "perda_treino": 0.39147
+    },
+    {
+      "epoca": 12,
+      "perda_treino": 0.34096
+    },
+    {
+      "epoca": 13,
+      "perda_treino": 0.30846
+    },
+    {
+      "epoca": 14,
+      "perda_treino": 0.26309
+    },
+    {
+      "epoca": 15,
+      "perda_treino": 0.24705
+    },
+    {
+      "epoca": 16,
+      "perda_treino": 0.22593
+    },
+    {
+      "epoca": 17,
+      "perda_treino": 0.19402
+    },
+    {
+      "epoca": 18,
+      "perda_treino": 0.16138
+    },
+    {
+      "epoca": 19,
+      "perda_treino": 0.18399
+    },
+    {
+      "epoca": 20,
+      "perda_treino": 0.12221
+    }
+  ]
+}

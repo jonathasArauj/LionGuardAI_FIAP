@@ -1,0 +1,18 @@
+{
+  "nome": "lionguard-cnn-experimental-icmbio-fotos-usuario",
+  "versao": "0.2.0-experimental",
+  "arquitetura": "CNN compacta de classificação RGB 96x96, treinada do zero com 14 recortes/fotos (8 positivos, 6 negativos)",
+  "arquivo": "lionguard_experimental_icmbio.pt",
+  "formato": "torchscript",
+  "entrada": 96,
+  "classes": [
+    "NAO_PEIXE_LEAO",
+    "PEIXE_LEAO"
+  ],
+  "indice_positivo": 1,
+  "ativacao": "softmax",
+  "detector": false,
+  "arquivo_metricas": null,
+  "treinado_em": "2026-11-20T02:39:52.801599+00:00",
+  "observacoes": "EXPERIMENTAL, NÃO VALIDADO. 4 recortes positivos e 6 negativos retirados de imagens no plano ICMBio 2015; + 4 fotografias de peixe-leão fornecidas pelo usuário. Dados de treino extremamente pequenos, negativos não são espécies visualmente semelhantes, scores NÃO calibrados; nenhum conjunto de teste independente. Revisão humana obrigatória."
+}

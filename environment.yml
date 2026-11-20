@@ -1,0 +1,41 @@
+# LionGuard AI — ambiente conda.
+#
+# Para quem usa Anaconda/Miniconda. Cria um ambiente **dedicado**, separado do
+# `base`: instalar as dependências do projeto no `base` costuma misturar
+# pacotes vindos do conda com pacotes vindos do pip, e é daí que saem erros de
+# importação como o do `starlette` com o `streamlit`.
+#
+#   conda env create -f environment.yml
+#   conda activate lionguard
+#   python -m streamlit run app/main.py
+#
+# Para atualizar o ambiente depois de mudar o requirements.txt:
+#
+#   conda env update -f environment.yml --prune
+#
+# Para remover e recomeçar:
+#
+#   conda deactivate && conda env remove -n lionguard
+#
+# Observação sobre a versão do Python: o projeto exige **3.11 ou superior**
+# (usa `enum.StrEnum`, introduzido no 3.11). O 3.12 também funciona.
+#
+# Observação sobre pip dentro do conda: as dependências vêm todas do pip, de
+# propósito. Instalar parte pelo conda e parte pelo pip no mesmo ambiente é o
+# que produz pares incompatíveis de versões.
+
+name: lionguard
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt
+
+      # Para treinar o modelo de visão computacional, descomente a linha
+      # abaixo (baixa ~2 GB de PyTorch). Não é necessário para executar a
+      # aplicação — a inferência usa ONNX Runtime.
+      # - -r requirements-treino.txt

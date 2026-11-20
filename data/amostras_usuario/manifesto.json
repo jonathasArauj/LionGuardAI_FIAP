@@ -1,0 +1,30 @@
+[
+  {
+    "arquivo": "peixe_leao_01.jpeg",
+    "sha256": "f9c4daecf8d0866d4aee1ba55fafdb6f18a150c6daea73fc6e97ae08f5d5e276",
+    "classe_rotulada": "PEIXE_LEAO",
+    "fonte": "imagem enviada pelo usuário no chat",
+    "licenca": "não informada — verificar antes de publicar"
+  },
+  {
+    "arquivo": "peixe_leao_02.jpeg",
+    "sha256": "af6f1953625620fbd290c258c573b5eecc96273a0c1ab9a58a858e620d40f706",
+    "classe_rotulada": "PEIXE_LEAO",
+    "fonte": "imagem enviada pelo usuário no chat",
+    "licenca": "não informada — verificar antes de publicar"
+  },
+  {
+    "arquivo": "peixe_leao_03.jpeg",
+    "sha256": "4c013c9db33c2a316120b4c8b313e2498a7cd4586172fed76fd3cf77accdc6b8",
+    "classe_rotulada": "PEIXE_LEAO",
+    "fonte": "imagem enviada pelo usuário no chat",
+    "licenca": "não informada — verificar antes de publicar"
+  },
+  {
+    "arquivo": "peixe_leao_04.jpeg",
+    "sha256": "dd9425471c8e59e0ea54ec9ac5e960a6a14379fdd0fbebebd621d3425305a9fe",
+    "classe_rotulada": "PEIXE_LEAO",
+    "fonte": "imagem enviada pelo usuário no chat",
+    "licenca": "não informada — verificar antes de publicar"
+  }
+]

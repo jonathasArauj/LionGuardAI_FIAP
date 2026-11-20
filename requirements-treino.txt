@@ -1,0 +1,14 @@
+# LionGuard AI — dependências adicionais para treinar o modelo de visão
+# computacional. Instale somente na máquina que vai treinar.
+#
+#   pip install -r requirements.txt -r requirements-treino.txt
+#
+# Para GPU NVIDIA, instale o PyTorch pelo índice oficial correspondente à sua
+# versão de CUDA (ver https://pytorch.org/get-started/locally/) antes deste
+# arquivo; o treinamento detecta CUDA, MPS (Apple Silicon) ou cai para CPU.
+
+torch>=2.4.0
+torchvision>=0.19.0
+
+# Geração do PDF acadêmico da entrega
+reportlab>=4.2.0

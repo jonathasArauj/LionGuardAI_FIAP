@@ -1,0 +1,5 @@
+
+# Complemento opcional para usar o modelo exploratório incluído no ZIP.
+-r requirements.txt
+torch>=2.3,<3
+pymupdf>=1.24

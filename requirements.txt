@@ -1,0 +1,39 @@
+# LionGuard AI — dependências da aplicação
+#
+# Este arquivo contém o necessário para **executar** a plataforma (portal do
+# cidadão, dashboards e inferência). O treinamento do modelo tem dependências
+# muito mais pesadas em geral (PyTorch e torchvision). A versão experimental
+# incluída usa TorchScript e precisa do PyTorch em execução. `torch` é uma
+# dependência grande; para implantações leves exportar um ONNX validado.
+#
+# Instalação:
+#   python -m venv .venv
+#   source .venv/bin/activate      (Windows: .venv\Scripts\activate)
+#   pip install -r requirements.txt
+
+# --- interface ---------------------------------------------------------------
+streamlit>=1.44,<2.0
+streamlit-folium>=0.24.0        # componente de mapa bidirecional (st_folium)
+streamlit-js-eval>=0.1.7        # API de geolocalização do navegador (GPS)
+folium>=0.17.0
+plotly>=5.24.0
+
+# --- dados e análise ---------------------------------------------------------
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.5.0             # DBSCAN (análise espacial) e métricas
+scipy>=1.14.0
+
+# --- imagens e inferência ----------------------------------------------------
+pillow>=10.4.0
+onnxruntime>=1.19.0             # executa o modelo exportado em ONNX
+
+# --- configuração ------------------------------------------------------------
+python-dotenv>=1.0.0
+
+# --- testes ------------------------------------------------------------------
+pytest>=8.3.0
+
+# Modelo TorchScript experimental incluso no ZIP. Necessário para carregar
+# models/lionguard_experimental_icmbio.pt (pesa mais que ONNX).
+torch>=2.4,<3
